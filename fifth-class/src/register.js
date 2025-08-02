@@ -8,6 +8,9 @@ function Register() {
     <div>
         <h1>{number}</h1>
 <button onClick={() => setNumber(number + 1)}>Button</button>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     </div>
   )
 }
