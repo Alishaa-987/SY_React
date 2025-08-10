@@ -1,22 +1,25 @@
 import React, { useState } from 'react';
-import './PasswordToggle.css'; 
+import './PasswordToggle.css';
 
 function PasswordToggle() {
   const [showPassword, setShowPassword] = useState(false);
 
-  // Click hone par password show/hide karega
   function togglePassword() {
     setShowPassword(!showPassword);
   }
 
   return (
-    <div>
-      <input 
-        type={showPassword ? "text" : "password"}  
-        placeholder='Enter Password'
+    <div className="password-container">
+      <input
+        type={showPassword ? "text" : "password"}
+        placeholder="Enter Password"
+        className="password-input"
       />
 
-      <button onClick={togglePassword}>
+      <button
+        onClick={togglePassword}
+        className="toggle-btn"
+      >
         {showPassword ? "Hide" : "Show"}
       </button>
     </div>
