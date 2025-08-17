@@ -21,6 +21,8 @@ function Dashboard() {
 
 export default Dashboard
 
+
+
 /*
  Through this method we can incrase or decrase both function through one state not by a lot of state
 
@@ -33,8 +35,6 @@ return(
 
 
 )
-
-
-
+thats just another way of writing that things wiht increment and decrement 
 <button   call={setIncrement}  name={increament}>
 */
