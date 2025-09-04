@@ -8,7 +8,7 @@ function Dashboard() {
   const decrease = () => setCount(count - 1)
 
   return (
-    <div style={{ minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "center", background: "#f4f4f9" }}>
+    <div style={{ minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "cennter", background: "#f4f4f9" }}>
       <CounterCard
         title="Counter-Card"
         count={count}
