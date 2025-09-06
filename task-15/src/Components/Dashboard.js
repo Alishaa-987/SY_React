@@ -98,6 +98,8 @@ export default function Dashboard({ user }) {
               </div>
             </div>
           ))
+
+          
         ) : (
           <div className="text-center py-12 bg-white rounded-xl shadow-lg">
             <div className="w-24 h-24 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
